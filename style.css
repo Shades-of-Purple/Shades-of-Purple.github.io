@@ -1,0 +1,271 @@
+header {
+    background-color: rgb(120, 93, 143); 
+}
+body > header {
+    background-color: rgb(80, 9, 9); 
+    color: lavenderblush;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header > img {
+    width: 75px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 30%;
+}
+
+main > img {
+    max-height: 45vh 
+}
+
+
+#logo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 8px;
+    font-family: "Berkshire Swash", "Baskervville SC", "Fredericka the Great", "Kalnia Glaze", Kurale, sans-serif;
+    font-size: 7vh;
+    text-shadow: 4px 4px rgb(20, 1, 20);
+    box-shadow: 10px 10px 15px 5px rgb(20, 1, 20);
+    width: 25%;
+    border-radius: 15%;
+    background-color: rgb(120, 93, 143); 
+ }
+
+body > header > nav > ul {
+    list-style: none;
+    display: flex
+}
+
+body > header > nav > ul > li {
+    margin: 8px;
+}
+
+body > header > nav > ul > li > ul {
+    list-style: none;
+}
+
+.navbutton1 {
+    padding: 10px;
+    border: 1px solid lavenderblush;
+    border-radius: 50%;
+    text-decoration: none;
+    color: lavenderblush
+}
+
+body> header > nav > ul > li > ul > li > a {
+    padding: 2px;
+    border: 1px solid lavenderblush;
+    text-decoration: none;
+    color: lavenderblush
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(80, 9, 9);
+    min-width: 100px;
+    box-shadow: 10px 10px 15px 5px rgb(20, 1, 20);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+body {
+    background-color: rgb(120, 93, 143);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#walt1, #walt2, #walt3, #walt4, #walt5, #walt6, #walt7, #walt8, #walt9, #walt10, #walt11, #walt12, #walt13, #walt14, #walt15, #walt16, #walt17, #walt18, #walt19, #walt20, #walt21, #walt22, #walt23, #walt24, #walt25, #walt26, #walt27 {
+    margin: 0;
+    padding: 0;
+    height: 45vh;
+    width: auto;
+}
+
+#walt1 {grid-area: walt1}
+#walt2 {grid-area: walt2}
+#walt3 {grid-area: walt3}
+#walt4 {grid-area: walt4}
+#walt5 {grid-area: walt5}
+#walt6 {grid-area: walt6}
+#walt7 {grid-area: walt7}
+#walt8 {grid-area: walt8}
+#walt9 {grid-area: walt9}
+#walt10 {grid-area: walt10}
+#walt11 {grid-area: walt11}
+#walt12 {grid-area: walt12}
+#walt13 {grid-area: walt13}
+#walt14 {grid-area: walt14}
+#walt15 {grid-area: walt15}
+#walt16 {grid-area: walt16}
+#walt17 {grid-area: walt17}
+#walt18 {grid-area: walt18}
+#walt19 {grid-area: walt19}
+#walt20 {grid-area: walt20}
+#walt21 {grid-area: walt21}
+#walt22 {grid-area: walt22}
+#walt23 {grid-area: walt23}
+#walt24 {grid-area: walt24}
+#walt25 {grid-area: walt25}
+#walt26 {grid-area: walt26}
+#walt27 {grid-area: walt27}
+
+.walters-grid {
+    display: grid;
+    grid-template-areas: 
+    "walt1 walt2 walt3"
+    "walt4 walt5 walt6"
+    "walt7 walt8 walt9"
+    "walt10 walt11 walt12"
+    "walt13 walt14 walt15"
+    "walt16 walt17 walt18"
+    "walt19 walt20 walt21"
+    "walt22 walt23 walt24"
+    "walt25 walt26 walt27";
+    gap: 0;
+}
+
+#mdub1, #mdub2, #mdub3, #mdub4, #mdub5, #mdub6, #mdub7, #mdub8, #mdub9, #mdub10, #mdub11, #mdub12, #mdub13, #mdub14, #mdub15, #mdub16, #mdub17, #mdub18, #mdub19, #mdub20, #mdub21, #mdub22, #mdub23, #mdub24, #mdub25, #mdub26, #mdub27, #mdub28, #mdub29, #mdub30, #mdub31, #mdub32, #mdub33, #mdub34, #mdub35, #mdub36, #mdub37, #mdub38, #mdub39, #mdub40, #mdub41, #mdub42, #mdub43, #mdub44, #mdub45, #mdub46 {
+    margin: 0;
+    padding: 0;
+    height: 35vh;
+    width: auto;
+
+}
+
+#mdub1 {grid-area: mdub1}
+#mdub2 {grid-area: mdub2}
+#mdub3 {grid-area: mdub3}
+#mdub4 {grid-area: mdub4}
+#mdub5 {grid-area: mdub5}
+#mdub6 {grid-area: mdub6}
+#mdub7 {grid-area: mdub7}
+#mdub8 {grid-area: mdub8}
+#mdub9 {grid-area: mdub9}
+#mdub10 {grid-area: mdub10}
+#mdub11 {grid-area: mdub11}
+#mdub12 {grid-area: mdub12}
+#mdub13 {grid-area: mdub13}
+#mdub14 {grid-area: mdub14}
+#mdub15 {grid-area: mdub15}
+#mdub16 {grid-area: mdub16}
+#mdub17 {grid-area: mdub17}
+#mdub18 {grid-area: mdub18}
+#mdub19 {grid-area: mdub19}
+#mdub20 {grid-area: mdub20}
+#mdub21 {grid-area: mdub21}
+#mdub22 {grid-area: mdub22}
+#mdub23 {grid-area: mdub23}
+#mdub24 {grid-area: mdub24}
+#mdub25 {grid-area: mdub25}
+#mdub26 {grid-area: mdub26}
+#mdub27 {grid-area: mdub27}
+#mdub28 {grid-area: mdub28}
+#mdub29 {grid-area: mdub29}
+#mdub30 {grid-area: mdub30}
+#mdub31 {grid-area: mdub31}
+#mdub32 {grid-area: mdub32}
+#mdub33 {grid-area: mdub33}
+#mdub34 {grid-area: mdub34}
+#mdub35 {grid-area: mdub35}
+#mdub36 {grid-area: mdub36}
+#mdub37 {grid-area: mdub37}
+#mdub38 {grid-area: mdub38}
+#mdub39 {grid-area: mdub39}
+#mdub40 {grid-area: mdub40}
+#mdub41 {grid-area: mdub41}
+#mdub42 {grid-area: mdub42}
+#mdub43 {grid-area: mdub43}
+#mdub44 {grid-area: mdub44}
+#mdub45 {grid-area: mdub45}
+#mdub46 {grid-area: mdub46}
+
+.mdub-grid {
+    display: grid;
+    grid-template-areas:
+    "mdub1 mdub2 mdub3"
+    "mdub4 mdub5 mdub6"
+    "mdub7 mdub8 mdub9"
+    "mdub10 mdub11 mdub12"
+    "mdub13 mdub14 mdub15"
+    "mdub16 mdub17 mdub18"
+    "mdub19 mdub20 mdub21"
+    "mdub22 mdub23 mdub24"
+    "mdub25 mdub26 mdub27"
+    "mdub28 mdub29 mdub30"
+    "mdub31 mdub32 mdub33"
+    "mdub34 mdub35 mdub36"
+    "mdub37 mdub38 mdub39"
+    "mdub40 mdub41 mdub42"
+    "mdub43 mdub44 mdub45";
+    gap: 0;
+}
+
+body > main aside {
+    width: 70%;
+}
+
+body > main > div > div > article {
+    width: 75%;
+    margin: auto
+}
+
+#Fiction-points {
+    display: flex
+}
+
+body > footer {
+    display: flex;
+    background-color: rgb(2, 2, 70);
+    color:lavenderblush
+}
+
+#footer-ul{
+    display: flex;
+}
+
+#footer-ul > div > li {
+    margin-left: 24px;
+}
+
+#footer-ul > div > li > a {
+    text-decoration: none;
+    color:lavenderblush
+}
+
+img {
+    border-radius: 10%;
+}
+
+form {
+    text-align: center;
+}
+
+body > main > h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(120, 93, 143);
+}
+
+footer > section > nav > ul {
+    margin-bottom: 0px
+}
+
+
+
+
+
+
