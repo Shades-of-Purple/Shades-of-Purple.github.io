@@ -157,6 +157,6 @@ footer > section > nav > ul {
 @media screen and (max-width: 500px) {
     /* Main Website Title in Uppermost Banner */
     #logo {
-        width: 25%;
+        width: 30%;   
     }
 }
