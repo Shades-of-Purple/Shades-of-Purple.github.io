@@ -154,9 +154,21 @@ footer > section > nav > ul {
         flex-wrap: wrap;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) and (orientation: portrait) {
     /* Main Website Title in Uppermost Banner */
     #logo {
         width: 35%;   
+    }
+
+     /* Four Tabs in Uppermost Banner */
+    body > header > nav > ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px
+    }
+    /* List of Category Pages and Subpages in Bottommost Banner */
+    #footer-ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
