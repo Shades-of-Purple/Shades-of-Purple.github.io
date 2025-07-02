@@ -27,7 +27,7 @@ header > img {
     text-shadow: 4px 4px rgb(20, 1, 20);
     box-shadow: 10px 10px 15px 5px rgb(20, 1, 20);
     width: auto;
-    min-width: fit-content;
+    width: fit-content;
     border-radius: 15%;
     background-color: rgb(120, 93, 143); 
  }
