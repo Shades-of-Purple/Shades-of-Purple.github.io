@@ -28,6 +28,8 @@ header > img {
     box-shadow: 10px 10px 15px 5px rgb(20, 1, 20);
     width: auto;
     width: fit-content;
+    word-break: normal;
+    overflow-wrap: normal;
     border-radius: 15%;
     background-color: rgb(120, 93, 143); 
  }
