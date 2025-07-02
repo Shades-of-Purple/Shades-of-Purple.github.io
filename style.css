@@ -6,11 +6,6 @@ body > header {
     align-items: center;
     justify-content: flex-start;
     gap: 10%;
-    width: 100vw;
-    margin: 0;
-    padding-left: 0;
-    padding-right: 0;
-    box-sizing: border-box;
 }
 
 /* RBP Logo Image in Uppermost Banner */
@@ -126,11 +121,6 @@ body > footer {
     display: flex;
     background-color: rgb(2, 2, 70);
     color:lavenderblush;
-    width: 100vw;
-    margin: 0;
-    padding-left: 0;
-    padding-right: 0;
-    box-sizing: border-box;
 }
 
 /* List of Category Pages and Subpages in Bottommost Banner */
