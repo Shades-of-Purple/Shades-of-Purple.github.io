@@ -5,23 +5,23 @@ body > header {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 10%
+    gap: 10%;
 }
 
 /* RBP Logo Image in Uppermost Banner */
 header > img {
-    width: 3%;
-    height: 4%;
+    height: calc(12vh + 16px);
+    width: auto;
     padding: 2vh;
+    margin-left: 6%;
     border-radius: 30%;
-    margin-left: 6%
 }
 
 /* Main Website Title in Uppermost Banner */
 #logo {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 8px;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    padding:8px;
     font-family: "Berkshire Swash", "Baskervville SC", "Fredericka the Great", "Kalnia Glaze", Kurale, sans-serif;
     font-size: 7vh;
     text-shadow: 4px 4px rgb(20, 1, 20);
@@ -71,7 +71,10 @@ body> header > nav > ul > li > ul > li > a {
 body {
     background-color: rgb(120, 93, 143);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0px
+    margin: 0px;
+    min-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 /* Sidebar and Top Article */
@@ -86,10 +89,16 @@ body > main aside {
     width: 15%;
 }
 
-/* Top Article (width does not affect images) */
+/* Top Article */
 body > main > div > div > article {
     width: 75%;
 }
+
+/* Article Wrapper */
+#main-content > div {
+    width: 75%
+}
+
 
 /* Article Headings (h2, h3, etc.) */
 header {
@@ -107,19 +116,19 @@ main > img {
     width: auto;
 }
 
-/* Bottomost Banner Including Website Title */
+/* Bottommost Banner Including Website Title */
 body > footer {
     display: flex;
     background-color: rgb(2, 2, 70);
     color:lavenderblush;
 }
 
-/* List of Category Pages and Subpages in Bottomost Banner */
+/* List of Category Pages and Subpages in Bottommost Banner */
 #footer-ul{
     display: flex;
 }
 
-/* List of Category Pages in Bottomost Banner */
+/* List of Category Pages in Bottommost Banner */
 #footer-ul > div > li {
     margin-left: 24px;
 }
@@ -128,12 +137,20 @@ body > footer {
     color:lavenderblush
 }
 
-/* Lists of Subpages in Bottomost Banner */
+/* Lists of Subpages in Bottommost Banner */
 footer > section > nav > ul {
     margin-bottom: 20px;
 }
 
 /* List of Early Publications and Performances on Fiction page */
 #Fiction-points {
-    display: flex
+    display: flex;
+}
+
+/* Media Queries */
+@media screen and (max-width: 810px) {
+    /* Uppermost Banner */
+    body > header {
+        flex-wrap: wrap;
+    }
 }
