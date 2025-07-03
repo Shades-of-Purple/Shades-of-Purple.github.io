@@ -116,6 +116,16 @@ main > img {
     width: auto;
 }
 
+
+/* Embedded Videos */
+iframe {
+  width: 100%;        /* allow shrinking */
+  max-width: 560px;   /* don’t grow beyond original width */
+  height: auto;       /* keep aspect ratio */
+  aspect-ratio: 16 / 9; /* modern browsers keep height proportional */
+}
+
+
 /* Bottommost Banner Including Website Title */
 body > footer {
     display: flex;
@@ -147,6 +157,7 @@ footer > section > nav > ul {
     display: flex;
 }
 
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 810px) {
     /* Uppermost Banner */
@@ -154,7 +165,7 @@ footer > section > nav > ul {
         flex-wrap: wrap;
     }
 }
-@media screen and (max-width: 500px) and (orientation: portrait) {
+@media screen and (max-width: 600px) and (orientation: portrait) {
     /* Main Website Title in Uppermost Banner */
     #logo {
         width: 35%;   
