@@ -155,9 +155,11 @@ footer > section > nav > ul {
 /* List of Early Publications and Performances on Fiction page */
 #Fiction-points {
     display: flex;
-    width: 100%;
 }
 
+#Colophon {
+    width: 20vh
+}
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 810px) {
