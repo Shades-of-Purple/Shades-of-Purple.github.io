@@ -155,6 +155,7 @@ footer > section > nav > ul {
 /* List of Early Publications and Performances on Fiction page */
 #Fiction-points {
     display: flex;
+    width: 100%;
 }
 
 
