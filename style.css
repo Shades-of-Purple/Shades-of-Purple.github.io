@@ -158,7 +158,7 @@ footer > section > nav > ul {
 }
 
 #Portrait {
-    width: 25vh
+    width: 22vh
 }
 
 /* Main Home Page */
@@ -166,7 +166,7 @@ footer > section > nav > ul {
     display: flex;
 }
 #Colophon {
-    width: 20vh
+    width: 22vh
 }
 
 /* MEDIA QUERIES */
