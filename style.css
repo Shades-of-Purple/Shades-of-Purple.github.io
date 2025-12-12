@@ -157,6 +157,14 @@ footer > section > nav > ul {
     display: flex;
 }
 
+#Portrait {
+    width: 30vh
+}
+
+/* Main Home Page */
+#homepage-quote {
+    display: flex;
+}
 #Colophon {
     width: 20vh
 }
